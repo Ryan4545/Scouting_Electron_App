@@ -1,14 +1,22 @@
 {
-    "name": "electron_app",
-    "version": "1.0.0",
-    "description": "TBD",
-    "main": "main.js",
-    "scripts": {
-        "start": "electron ."
-    },
-    "author": "Ryan Bode",
-    "license": "ISC",
-    "dependencies": {
-        "electron": "^7.1.3"
-    }
+  "name": "electron_app",
+  "version": "1.0.0",
+  "description": "TBD",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Ryan Bode",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan4545/Scouting_Electron_App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ryan4545/Scouting_Electron_App/issues"
+  },
+  "homepage": "https://github.com/Ryan4545/Scouting_Electron_App#readme"
 }
