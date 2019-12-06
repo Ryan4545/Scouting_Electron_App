@@ -1,0 +1,170 @@
+body {
+    background: rgb(20, 19, 19);
+    color: #fff;
+}
+
+.login {
+    background: #73737a;
+    color: #73ff00;
+}
+
+html body .icons {
+    margin-left: 3.5rem;
+    display: none;
+}
+
+html body .buttons {
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 18%;
+    padding: 8px;
+    text-align: center;
+    height: 20%;
+    font-family: cursive;
+    background: #3e3e49;
+    color: #73ff00;
+}
+
+html body .buttons:hover {
+    opacity: 0.7;
+}
+
+html body textarea {
+    background: #3e3e49;
+    color: lime;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    width: 45%;
+    font-size: 22px;
+    font-family: cursive;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 7px;
+}
+
+html body h1 {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+}
+
+html body table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+html body th,
+html body td {
+    text-align: left;
+    padding: 16px;
+}
+
+html body tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.loginLink {
+    font-size: 20px;
+    color: #fff;
+}
+
+.loginLinkD {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    right: 5px;
+}
+
+html body .loginLink:hover {
+    color: #f2f2f2;
+    opacity: 0.7;
+}
+
+.dropDown {
+    font-size: 25px;
+    padding: 5px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    background: rgb(35, 137, 233);
+    opacity: 0.95;
+    cursor: pointer;
+}
+
+.submitButton {
+    font-size: 25px;
+    padding: 5px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    background: rgb(35, 137, 233);
+    cursor: pointer;
+}
+
+html body div {
+    width: 100%;
+    padding: 7px;
+    background: #5c5c61;
+}
+
+.parent {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.parent .popup {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: -75%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.parent .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+.colors {
+    background: #464545;
+    font-size: 18px;
+    margin-top: 12rem;
+    display: inline-block;
+    padding: 1px;
+}
+
+.NoColors {
+    background: #464545;
+    font-size: 18px;
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 1px;
+}

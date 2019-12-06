@@ -10,7 +10,7 @@ let mainWindow;
 app.on('ready', function() {
     mainWindow = new BrowserWindow({});
     //Load HTML file
-    mainWindow.loadURL(url.format({
+    mainWindow.loadURL(url.format({ //@TODO Create a public file for JavaScript and CSS
         pathname: path.join(__dirname, 'index.html'),
         protocol: 'file:',
         slashes: true
